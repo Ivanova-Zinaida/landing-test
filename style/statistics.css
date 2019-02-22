@@ -1,0 +1,55 @@
+.tab-bg {
+	background-color: #708cbb;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.tab-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 75px;
+}
+.tab-item {
+	display: inline-block;
+    color:#fff;
+}
+.tab_link {
+    display: inline-block;
+    padding: 15px 20px; 
+    color:#fff;
+}
+.tab-link__active {
+	background-color: #fff;
+    color: #708cbb;  
+    text-decoration: none;
+}
+.statistics {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-number{
+	font-size: 36px;
+    color: #708cbb;
+     padding-left: 40px;
+     padding-right: 20px;
+}
+
+.statistics-card:first-child .card-number {
+	padding-left: 0;
+}
+.statistics-card {
+	color: #767676;
+}
+.card-text {
+	margin: 0;
+    padding: 0;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    border-left: 1px solid #e1e1e1;
+}
+.statistics-card:first-child .card-text{
+    border-left: 0px ;
+    padding-left: 0;
+}

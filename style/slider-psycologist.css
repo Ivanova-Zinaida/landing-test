@@ -1,0 +1,63 @@
+.slider-flex-contant{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row; 
+}
+.slider-wrap{
+    max-width: 1415px;
+    overflow: hidden;
+}
+.slider{
+    width: 100%;
+  background-image: -moz-linear-gradient( 90deg, rgb(233,237,243) 0%, rgb(212,216,223) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(233,237,243) 0%, rgb(212,216,223) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(233,237,243) 0%, rgb(212,216,223) 100%);  
+}
+.slider-title{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 20px;
+}
+.psychologist-slider-text{
+    font-style: italic;
+    line-height: 26px;
+    color: #5e5e5e;
+    margin-bottom: 20px;
+}
+.slider-card{
+    width: 160px;
+    padding: 20px 15px;
+    background-color: #fff;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+.specialist-slider{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+.spacialist-text-slider{
+    margin-left: 15px;
+    margin-bottom: 60px;
+}
+.card-slider{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+    width: 128px;
+    margin-bottom: 5px;
+}
+.card-slider ul li{
+    margin-right: 6px;
+}
+.slider-link{
+    color: #214e9b;
+    text-decoration: none;
+    margin-top: 5px;
+    
+}
+.slider-link:hover{
+    text-decoration: underline;
+}

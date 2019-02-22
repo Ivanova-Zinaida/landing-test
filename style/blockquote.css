@@ -1,0 +1,32 @@
+.blockquote-slider {
+	display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    font-style: italic;
+    color: #767676;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.prev, .next{
+	position: absolute;
+    display: block;
+    z-index: 2;
+}
+.prev{
+    left: 0;
+    top:10%;
+}
+.next{
+    right: 0;
+    top:10%;
+}
+.blockquote-text {
+	width: 265px;
+}
+.blockquote-text cite{
+    color: #214e9b;
+    font-size: 14px;
+    display: block;
+    text-align: right;
+}

@@ -1,0 +1,99 @@
+@import url(header.css);
+@import url(statistics.css);
+@import url(reviews.css);
+@import url(price.css);
+@import url(chat.css);
+@import url(slider-psycologist.css);
+@import url(psycologist-online.css);
+@import url(question.css);
+@import url(blockquote.css);
+@import url(about-us.css);
+@import url(advantages.css);
+@import url(footer.css);
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: Open-Sans, sans-serif;
+}
+
+.container {
+	max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section-title{
+    font-size: 28px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    padding-bottom:40px;
+    padding-top:  40px;
+    color:#000;
+}
+.banner-btn{
+    margin-bottom: 40px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #73ad58;
+    border: none;
+    border-radius: 5px;
+}
+.stars{
+    color: #ffd961;
+}
+.star-gray{
+    color:#c5c5c5;
+}
+.list-icon{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.list-icon-item {
+    display: inline-block;
+}
+
+.specialist-profile {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 223px;
+}
+
+.specialist-name {
+	color:#cc3399;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 4px;
+}
+.specialist-name::before{
+   position: absolute;
+    left: -15px;
+    top:6px;
+   content: "";
+    background-color: #4caf50;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+.specialist-img{
+    margin-right: 25px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.specialist-name:hover{
+    text-decoration: underline;
+}
+.spacialization{
+    color: #5e5e5e;
+    font-size: 14px;
+}

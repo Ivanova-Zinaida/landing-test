@@ -1,0 +1,38 @@
+.psychologist-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.advantages{
+    width: 300px;
+}
+.advantages-list {
+	color: #214e9b;
+    margin: 0;
+    padding: 0;
+}
+.advantages-items {
+	margin-bottom: 30px;
+    font-weight: bold;
+}
+.advantages-text {
+	color:#aaa;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+.all-psychologist {
+	font-weight: bold;
+    line-height: 20px;
+    color: #5e5e5e;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+}

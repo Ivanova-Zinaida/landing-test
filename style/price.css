@@ -1,0 +1,54 @@
+.price{
+    border-bottom: 1px solid #e1e1e1;
+}
+.price-menu {
+	text-align: center;
+    
+}
+.price-menu-link{
+    color: #767676;
+    font-size: 18px;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.price-link-active{
+    font-size: 24px;
+    color:#214e9b;
+    text-decoration: none;   
+}
+.price-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.price-table td{
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.free-time, .cost{
+    display: inline-block;
+    color:#aaa;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+.free-time{
+   margin-left: 30px; 
+}
+.theme{
+    color:#214e9b;
+    display: inline-block;
+}
+.price-reviws{
+    display: inline-block;
+    font-size: 14px;
+    color:#767676;
+    padding: 5px 10px;
+    background-color: #fff4e9;
+    text-decoration: none;
+}

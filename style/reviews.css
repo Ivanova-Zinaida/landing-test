@@ -1,0 +1,91 @@
+.reviews{
+    background-color: #fafafa;
+    border-top: 1px solid #e1e1e1;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.reviews-wrap{
+    max-width: 1415px;
+    overflow: hidden;
+        
+}
+.reviews-title{
+    max-width: 1000px;
+}
+.reviews-number{
+   color: #708cbb;
+}
+.reviews-flex-contant{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.reviers-card {
+    width: 580px;
+    box-sizing: border-box;
+    padding-right: 80px;
+    padding-left: 80px;
+     border-right: 1px solid  #e1e1e1;
+}
+.reviews-card__name{
+    color: #214e9b;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.reviews-card__name:hover{
+    text-decoration: underline;
+}
+.reviews-date {
+	color: #8f8f8f;
+    line-height: 30px;
+}
+.reviews-text{
+    color:#5e5e5e;
+    font-style: italic;
+    line-height: 21px;
+    margin: 0;
+    padding: 0; 
+    margin-bottom: 20px;
+    width: 418px;
+}
+.reviews-question{
+    color: #aaa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    width: 418px;
+}
+.question-link{
+    text-decoration: none;
+    color: #214e9b;
+}
+.question-link:hover{
+    text-decoration: underline;
+}
+.reviews-question span{
+    padding-right: 20px;      
+}
+.card-specialist{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between; 
+    color: #5e5e5e;
+    border-top: 1px solid #e1e1e1;
+    padding-top: 10px;
+    max-width: 418px;
+}
+.more-reviews{
+    text-align: center;
+    margin-top: 50px;
+    color: #214e9b;
+    font-size: 18px;
+
+}
+.more-reviews a{
+     display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #214e9b;
+}
